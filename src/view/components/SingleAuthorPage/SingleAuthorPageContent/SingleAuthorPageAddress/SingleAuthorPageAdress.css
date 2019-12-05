@@ -1,0 +1,24 @@
+#singleAuthorPageAddress {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+#adress {
+   display: block;
+
+}
+#singleAuthorPageAddress iframe{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding-bottom: 30px;
+
+}
+#singleAuthorPageAddress h1 {
+    font-size: 40px;
+}
+#singleAuthorPageAddress p {
+    font-size: 25px;
+    padding: 10px 0;
+    
+}

@@ -1,0 +1,29 @@
+#newPostContent h1 {
+    text-align: center;
+    font-size: 30px;
+}
+#newPostContent p {
+    font-size: 25px;
+    margin: 20px 0 ;
+}
+#newPostContent input {
+    width: 100%;
+    height: 30px;
+}
+#newPostContent textarea {
+    width: 100%;
+    height: 200px;
+}
+#btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-bottom: 50px;
+    
+}
+#btn button {
+    padding: 10px 40px;
+}
+#btn1 {
+    margin-right: 20px;
+}

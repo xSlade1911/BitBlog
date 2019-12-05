@@ -1,12 +1,16 @@
 import React from "react";
-
+import Pic from "./pic.jpg"
+import "./SingleAuthorPageInfo.css"
 function SingleAuthorPageInfo(props) {
   return (
-    <div>
+    <div id="singleAuthorPageInfo">
+      <img src={Pic}/>
+      <div class="info">
       <h1>{props.author.name}</h1>
-      <p>{props.author.username}</p>
-      <p>{props.author.email}</p>
-      <p>{props.author.phone}</p>
+      <p>Username: {props.author.username}</p>
+      <p>Email: {props.author.email}</p>
+      <p>Phone: {props.author.phone}</p>
+      </div>
     </div>
   );
 }

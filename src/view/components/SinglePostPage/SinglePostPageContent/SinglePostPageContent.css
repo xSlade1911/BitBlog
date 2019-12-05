@@ -5,8 +5,14 @@
 #singlePageContent p {
   text-align: center;
 }
-#singlePageContent a {
+#singlePageContent h4 {
   font-size: 30px;
   display: block;
   text-align: center;
+  margin: 20px;
+}
+#singlePageContent a {
+  display: block;
+  margin: 30px 0;
+  font-size: 30px;
 }

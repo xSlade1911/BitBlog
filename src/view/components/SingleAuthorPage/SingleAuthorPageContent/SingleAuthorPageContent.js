@@ -1,6 +1,9 @@
 import React from "react";
 import SingleAuthorPageInfo from "./SingleAuthorPageInfo/SingleAuthorPageInfo";
-
+import SingleAuthorPageAdress from "./SingleAuthorPageAddress/SingleAuthorPageAddress"
+import SingleAuthorPageCompany from "./SingleAuthorPageCompany/SingleAuthorPageCompany";
+import { Link } from "react-router-dom";
+import "./SingleAuthorPageContent.css"
 const author = {
   id: 1,
   name: "Leanne Graham",
@@ -13,7 +16,7 @@ const author = {
     zipcode: "92998-3874",
     geo: {
       lat: "-37.3159",
-      lng: "81.1496"
+      lng: "81.1496",
     }
   },
   phone: "1-770-736-8031 x56442",
@@ -27,9 +30,14 @@ const author = {
 
 function SingleAuthorPageContent() {
   return (
-    <>
+    <div id="singleAuthorPageContent">
+      <Link to="/">
+        <p>{"<"}Back</p>
+      </Link>
       <SingleAuthorPageInfo author={author} />
-    </>
+      <SingleAuthorPageAdress author={author} />
+      <SingleAuthorPageCompany author={author} />
+    </div>
   );
 }
 export default SingleAuthorPageContent;

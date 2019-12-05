@@ -1,6 +1,7 @@
 import React from "react";
 import "./SinglePostPageContent.css";
 import { LoremIpsum } from "lorem-ipsum";
+import { Link } from "react-router-dom";
 
 const lorem = new LoremIpsum({
   sentencesPerParagraph: {
@@ -20,8 +21,13 @@ const post = {
 function SinglePageContent() {
   return (
     <div id="singlePageContent">
+      <Link to="/">
+      <a> {"<"}Back</a>
+      </Link>
       <h1>{post.title}</h1>
-      <a>{post.author}</a>
+      <Link to="singleauthor">
+      <h4>Author Name</h4>
+      </Link>
       <p>{post.body}</p>
     </div>
   );
