@@ -1,0 +1,11 @@
+.postCard {
+  border-bottom: 2px solid black;
+  margin-bottom: 2em;
+}
+.postCard h1 {
+  font-size: 50px;
+}
+.postCard p {
+  font-size: 25px;
+  padding: 1em 0;
+}

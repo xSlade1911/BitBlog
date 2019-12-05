@@ -1,0 +1,12 @@
+#singlePageContent h1 {
+  text-align: center;
+  font-size: 45px;
+}
+#singlePageContent p {
+  text-align: center;
+}
+#singlePageContent a {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}

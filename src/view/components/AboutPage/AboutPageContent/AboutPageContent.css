@@ -1,0 +1,8 @@
+#aboutPageContent h1 {
+  text-align: center;
+  padding: 1em;
+}
+#aboutPageContent p {
+  padding: 0 40px;
+  text-align: center;
+}

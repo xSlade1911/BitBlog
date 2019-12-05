@@ -1,0 +1,8 @@
+#buttons {
+  list-style: none;
+  display: flex;
+}
+.btns {
+  padding: 1em;
+  font-size: 25px;
+}

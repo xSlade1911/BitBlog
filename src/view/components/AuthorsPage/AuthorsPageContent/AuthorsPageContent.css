@@ -1,0 +1,11 @@
+#authorsPageContent {
+  padding: 30px;
+}
+#authorsPageContent h1 {
+  text-align: center;
+}
+#authorsPageContent p {
+  font-size: 35px;
+  padding: 0.5em;
+  border-bottom: 2px solid black;
+}
